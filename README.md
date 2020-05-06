@@ -5,11 +5,11 @@ Run `python video_split.py -h` to see the options.
 
 ## Arguments
 
-* -i File path to folder containing videos that will be split
-* -o File path to folder where chunks will be saved
-* -l Length of each chunk in seconds
-* -e File type to save chunks as, for example mp4
-* -s Set to 1 in order to exclude last chunk of each video so that all chunks are of equal length. Otherwise last chunk may be shorter.
+* -i  File path to folder containing videos that will be split
+* -o  File path to folder where chunks will be saved
+* -l  Length of each chunk in seconds
+* -e  File type to save chunks as, for example mp4
+* -s  Set to 1 in order to exclude last chunk of each video so that all chunks are of equal length. Otherwise last chunk may be shorter.
 
 ## Spliting video into equal chunks
 
