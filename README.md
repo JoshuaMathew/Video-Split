@@ -1,5 +1,6 @@
 # Video-Split
 Command line Python script that splits video into chunks. Must have FFMpeg installed. File paths should not contain any spaces. 
+Based on [video-splitter] implemented by c0decracker.
 
 Run `python video_split.py -h` to see the options.
 
@@ -43,5 +44,4 @@ Running the line above on the same input folder will create the following files:
 * `vid2-0.mp4` Length: 2 seconds
 * `vid2-1.mp4` Length: 2 seconds
 
-
-
+[video-splitter]: https://github.com/c0decracker/video-splitter/blob/master/README.md
